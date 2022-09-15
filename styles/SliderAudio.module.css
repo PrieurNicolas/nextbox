@@ -1,4 +1,6 @@
-#app { height: 100% }
+#app {
+  height: 100%
+}
 
 .swiper {
   width: 100%;
@@ -6,7 +8,7 @@
 }
 
 .swiperSlide {
-    height: 35vh;
+  height: 35vh;
   text-align: center;
   font-size: 18px;
   background: #fff;
@@ -29,4 +31,21 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.h2 {
+  color: #fff;
+  z-index: 2;
+}
+
+.audio {
+  width: 100%;
+}
+
+.audio::-webkit-media-controls-panel {
+  background-color: blanchedalmond;
+}
+
+.audio::-webkit-media-controls-timeline {
+  background-color: whitesmoke;
 }

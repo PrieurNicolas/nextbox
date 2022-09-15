@@ -1,0 +1,9 @@
+.divf{
+    width: 100%;
+    background-color: aliceblue;
+    text-align: center;
+    align-items: flex-end;
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+}

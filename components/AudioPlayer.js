@@ -1,9 +1,17 @@
-import React from 'react'
+import React, { useEffect, useRef } from 'react'
+import Styles from '../styles/SliderAudio.module.css';
 
-export default function AudioPlayer({music}) {
+export default function AudioPlayer({ music }) {
+
+  const ref = useRef()
+
+  useEffect(() => {
+      ref.current.play(music.src);
+  }, [music.src])
+
   return (
     <>
-    <audio src={`/assets/musics/${music.src}`} controls></audio>
+      <audio className={Styles.audio} src={`/assets/musics/${music.src}`} ref={ref} controls></audio>
     </>
   )
 }

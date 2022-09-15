@@ -31,6 +31,7 @@ export default function Home() {
       <SliderAudio/>
 
       </main>
+      
 
       <Footer/>
     </div>
