@@ -43,9 +43,9 @@
 }
 
 .audio::-webkit-media-controls-panel {
-  background-color: blanchedalmond;
+  background-color: gray;
 }
 
 .audio::-webkit-media-controls-timeline {
-  background-color: whitesmoke;
+  background-color: rgb(122, 122, 122);
 }
