@@ -30,8 +30,8 @@ export default function SliderAudio() {
     <>
       <Swiper
         slidesPerView={2}
-        spaceBetween={10}
-        centeredSlides={true}
+        spaceBetween={5}
+        loop={true}
         pagination={{
           clickable: true,
         }}
